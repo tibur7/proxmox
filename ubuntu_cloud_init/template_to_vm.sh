@@ -12,4 +12,4 @@ sudo qm clone $1 $2 --name $3
 sudo qm set $2 --sshkey ~/.ssh/id_rsa.pub
 sudo qm set $2 --ipconfig0 ip=$4/24,gw=$5
 
-sudo qm start $2
+#sudo qm start $2
